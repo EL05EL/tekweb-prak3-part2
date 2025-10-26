@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple JavaScript Page Customizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Simple JavaScript Page Customizer</h1>
+        
+        <div class="control-panel">
+            <div class="control-group">
+                <h3>Background Color</h3>
+                <select id="bgColorSelect">
+                    <option value="#f5f5f5">Default</option>
+                    <option value="#e8f5e9">Light Green</option>
+                    <option value="#e3f2fd">Light Blue</option>
+                    <option value="#fff3e0">Light Orange</option>
+                    <option value="#fce4ec">Light Pink</option>
+                </select>
+            </div>
+            
+            <div class="control-group">
+                <h3>Font Size</h3>
+                <div class="font-size-controls">
+                    <button id="decreaseFont">A-</button>
+                    <button id="increaseFont">A+</button>
+                </div>
+            </div>
+            
+            <div class="control-group">
+                <h3>Dark Mode</h3>
+                <button id="toggleDarkMode">Toggle Dark Mode</button>
+            </div>
+            
+            <div class="control-group">
+                <h3>Font Style</h3>
+                <select id="fontStyleSelect">
+                    <option value="font-sans-serif">Sans Serif</option>
+                    <option value="font-serif">Serif</option>
+                    <option value="font-monospace">Monospace</option>
+                </select>
+            </div>
+        </div>
+        
+        <div class="content">
+            <h2>About This Page</h2>
+            <p>Ini adalah demonstrasi kustomisasi halaman JavaScript sederhana. Pake tombol kontrol diatas untuk merubah tampilannya ya!</p>
+            
+            <h2>How It Works</h2>
+            <p>Setelah kalian pilih perubahan tampilannya, maka halaman akan mengikuti sesuai apa yang kalian pilih. Hal ini dilakukan dengan memodifikasi kelas CSS dan gaya sebaris.</p>
+            
+            <h2>Features Implemented</h2>
+            <ul>
+                <li>Ubah warna latar belakang menggunakan dropdown</li>
+                <li>Menambah atau mengurangi ukuran font menggunakan tombol</li>
+                <li>Beralih antara mode terang dan gelap</li>
+                <li>Ubah gaya font (sans-serif, serif, atau monospace)</li>
+            </ul>
+            
+            <h2>Try It Out!</h2>
+            <p>Cobalah untuk merubah dan bereksperimen dengan kontrol yang berbeda-beda untuk melihat perubahannya.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
